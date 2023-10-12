@@ -1,25 +1,24 @@
 "use strict";
 
-//вводы для пользователя
+let num = 20;
 
-console.log("arr" + " - object");
-console.log(4 + + "5");
+// while (num <= 55) {
+//     if (num === 20) {
+//         continue;
+//     }
+//     console.log(num);
+//     num++;
+// }
 
-let incr = 10,
-    decr = 10;
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
 
-//++incr;
-//--decr;
-
-console.log(++incr);
-console.log(--decr);
-
-console.log(5%2);
-
-console.log(2 + 2 * 2 !== "6");
-
-const isChecked = false,
-    isClose = false;
-
-console.log(isChecked || !isClose);
-
+for (let i = 10; i <= 50; i++) {
+    if (i === 20) {
+        continue;
+    }
+    console.log(i);
+}
